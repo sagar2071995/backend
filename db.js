@@ -1,5 +1,5 @@
 const mongoose =  require('mongoose')
-mongoose.connect('mongodb://localhost:27017/iauro',(err) =>{
+mongoose.connect('mongodb://sagar95:sagar1995@ds018258.mlab.com:18258/sagar2071995',{ useNewUrlParser: true },(err) =>{
     if(!err){
         console.log('Mongodb connection succesful..!!');
     }
