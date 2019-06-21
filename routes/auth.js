@@ -10,6 +10,10 @@ router.get('/', function(req, res) {
     })
     
 })
+
+
+
+
 router.post('/login',function(req,res){
     var data = req.body.data;
     username = data.username
